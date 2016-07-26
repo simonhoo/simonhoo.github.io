@@ -1,0 +1,104 @@
+# Welcome to Jekyll!
+
+# Website settings
+title: "木偶人"
+description: "木偶人技术博客，使用Jekyll与Github Pages"
+keywords: "木偶人,胡登军,Simon,simonhoo,java,oracle,thrift,go,blog,Jekyll,github,gh-pages"
+
+baseurl: "/"
+url: "http://www.cottsoft.com"
+# url: "http://127.0.0.1:4000"
+
+# author
+author:
+  name: '木偶人'
+  first_name: 'Simon'
+  last_name: 'Hoo'
+  email: 'simon@cottsoft.com'
+  facebook_username: 'simonhoo'
+  github_username: 'simonhoo'
+  head_img: 'static/img/simonhoo/simonhoo.png'
+
+# social link
+jingyu:
+  first_name: 'Simon'
+  last_name: 'Hoo'
+  description: 'China-Loong.com.'
+  link: 'http://wwww.china-loong.com'
+  email: 'simon@china-loong.com'
+
+# landing page
+landing:
+  home: 'Home'
+  about: 'About'
+  career: 'Career'
+  skills: 'Skills'
+  projects: 'Project'
+  blog: 'Blog'
+  contact: 'Link'
+
+# my projects
+project:
+  thrift-framework:
+    name: 'thrift-framework'
+    url: '/simonhoo/thrift-framework'
+    img: 'static/img/projects/thrift-framework.jpg'
+  SeaweedFS-Client:
+    name: 'SeaweedFS-Client'
+    url: '/simonhoo/SeaweedFS-Client'
+    img: 'static/img/projects/SeaweedFS-Client.jpg'
+  thrift-script:
+    name: 'thrift-script'
+    url: '/simonhoo/thrift-script'
+    img: 'static/img/projects/thrift-script.jpg'
+  iFramework:
+    name: 'iFramework'
+    url: '/simonhoo/iFramework'
+    img: 'static/img/projects/iFramework.jpg'
+
+# blog index
+index:
+  home: 'Home'
+  python: 'Python'
+  linux: 'Linux'
+  html: 'HTML'
+  database: 'Database'
+  mac: 'Mac'
+  life: 'Life'
+
+# donate
+donate:
+  wechat: 'static/img/pay/wechat.png'
+  alipay: 'static/img/pay/alipay.png'
+
+# comment
+changyan:
+  # appid: cysfY7ULn
+  # conf: prod_861928934cecb7a18e15bedaed9dae29
+disqus:
+  name: jalpc
+  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+
+# share
+bshare:
+  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
+
+# baidu analytics
+ba:
+  uuid: 317acca9ef9255b934e46371e471431d
+
+# google analytics
+ga:
+  id: UA-73784599-1
+
+# blog img path
+img_path: '/static/img/blog'
+
+# Build settings
+encoding: "utf-8"
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
