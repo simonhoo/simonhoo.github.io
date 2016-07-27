@@ -155,11 +155,19 @@
     </url>
 
     <url>
+        <loc>http://www.cottsoft.com/architecture/</loc>
+    </url>
+
+    <url>
         <loc>http://www.cottsoft.com/blog/</loc>
     </url>
 
     <url>
         <loc>http://www.cottsoft.com/search/cb-search.json</loc>
+    </url>
+
+    <url>
+        <loc>http://www.cottsoft.com/cloud/</loc>
     </url>
 
     <url>
@@ -171,11 +179,19 @@
     </url>
 
     <url>
+        <loc>http://www.cottsoft.com/golang/</loc>
+    </url>
+
+    <url>
         <loc>http://www.cottsoft.com/html/</loc>
     </url>
 
     <url>
         <loc>http://www.cottsoft.com/</loc>
+    </url>
+
+    <url>
+        <loc>http://www.cottsoft.com/java/</loc>
     </url>
 
     <url>
@@ -188,6 +204,10 @@
 
     <url>
         <loc>http://www.cottsoft.com/mac/</loc>
+    </url>
+
+    <url>
+        <loc>http://www.cottsoft.com/pm/</loc>
     </url>
 
     <url>

@@ -36,6 +36,41 @@
                             <li>
                         {% endif %}
                             <a class="page-scroll" href="/python/">{{ site.index.python }}</a></li>
+                        
+                        {% if page.title == site.index.java %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                             <a class="page-scroll" href="/java/">{{ site.index.java }}</a></li>
+
+                        {% if page.title == site.index.golang %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                             <a class="page-scroll" href="/golang/">{{ site.index.golang }}</a></li>
+
+                        {% if page.title == site.index.pm %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                             <a class="page-scroll" href="/pm/">{{ site.index.pm }}</a></li>
+
+                        {% if page.title == site.index.architecture %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                             <a class="page-scroll" href="/architecture/">{{ site.index.architecture }}</a></li>
+
+                        {% if page.title == site.index.cloud %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                             <a class="page-scroll" href="/cloud/">{{ site.index.cloud }}</a></li>
 
                         {% if page.title == site.index.linux %}
                             <li class="active">
@@ -57,13 +92,6 @@
                             <li>
                         {% endif %}
                             <a class="page-scroll" href="/database/">{{ site.index.database }}</a></li>
-
-                        {% if page.title == site.index.mac %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/mac/">{{ site.index.mac }}</a></li>
 
                         {% if page.title == site.index.life %}
                             <li class="active">
