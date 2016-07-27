@@ -4,6 +4,7 @@
 title: "木偶人"
 description: "木偶人技术博客，使用Jekyll与Github Pages"
 keywords: "木偶人,胡登军,Simon,simonhoo,java,oracle,thrift,go,blog,Jekyll,github,gh-pages"
+icp: "粤ICP备14028579号"
 
 baseurl: "/"
 url: "http://www.cottsoft.com"
@@ -12,20 +13,23 @@ url: "http://www.cottsoft.com"
 # author
 author:
   name: '木偶人'
-  first_name: 'Simon'
-  last_name: 'Hoo'
+  first_name: 'Hoo'
+  last_name: 'Simon'
   email: 'simon@cottsoft.com'
   facebook_username: 'simonhoo'
   github_username: 'simonhoo'
   head_img: 'static/img/simonhoo/simonhoo.png'
 
 # social link
-jingyu:
-  first_name: 'Simon'
-  last_name: 'Hoo'
-  description: 'China-Loong.com.'
-  link: 'http://wwww.china-loong.com'
-  email: 'simon@china-loong.com'
+contact:
+  first_name: 'Hoo'
+  last_name: 'Simon'
+  description: '有事您说话！'
+  website: 'http://wwww.cottsoft.com'
+  email: 'simon@cottsoft.com'
+  qq: '9930323'
+  weixin: 'Dengjun_Hu'
+  mobile: '18588224400'
 
 # landing page
 landing:
@@ -35,7 +39,7 @@ landing:
   skills: 'Skills'
   projects: 'Project'
   blog: 'Blog'
-  contact: 'Link'
+  contact: 'Contact'
 
 # my projects
 project:
@@ -43,32 +47,43 @@ project:
     name: 'thrift-framework'
     url: '/simonhoo/thrift-framework'
     img: 'static/img/projects/thrift-framework.jpg'
-  SeaweedFS-Client:
-    name: 'SeaweedFS-Client'
-    url: '/simonhoo/SeaweedFS-Client'
-    img: 'static/img/projects/SeaweedFS-Client.jpg'
   thrift-script:
     name: 'thrift-script'
     url: '/simonhoo/thrift-script'
     img: 'static/img/projects/thrift-script.jpg'
+  SeaweedFS-Client:
+    name: 'SeaweedFS-Client'
+    url: '/simonhoo/SeaweedFS-Client'
+    img: 'static/img/projects/SeaweedFS-Client.jpg'
   iFramework:
     name: 'iFramework'
     url: '/simonhoo/iFramework'
     img: 'static/img/projects/iFramework.jpg'
+  eclipse-plugins:
+    name: 'eclipse-plugins'
+    url: '/simonhoo/eclipse-plugins'
+    img: 'static/img/projects/eclipse-plugins.jpg'
+  redspider:
+    name: 'redspider'
+    url: '/simonhoo/redspider'
+    img: 'static/img/projects/redspider.jpg'
 
 # blog index
 index:
   home: 'Home'
+  java: 'Java'
   python: 'Python'
-  linux: 'Linux'
-  html: 'HTML'
+  golang: 'Go'
   database: 'Database'
-  mac: 'Mac'
+  linux: 'Linux'
+  cloud: 'Colud'
+  architect: 'Architect'
+  pm: 'Project Management'
   life: 'Life'
 
 # donate
 donate:
-  wechat: 'static/img/pay/wechat.png'
+  weixin: 'static/img/pay/xeixin.png'
   alipay: 'static/img/pay/alipay.png'
 
 # comment

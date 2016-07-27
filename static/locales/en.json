@@ -1,6 +1,6 @@
 {
   "website":{
-    "title": "Jack's blog"
+    "title": "Simon.Hoo's technology blog"
   },
   "nav":{
     "home": "Home",
@@ -13,7 +13,7 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "I am a Python engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel."
+    "des": "I am an old Coder: JAVA application development, System Analysis, System Architecture, Project Manageement. System architecture design is the main role in recent years. Pay attention to the open source community, willing to share; Love life, love of coding."
   },
   "skills":{
     "my_skills": "My Skills"
