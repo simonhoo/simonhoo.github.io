@@ -33,13 +33,13 @@ contact:
 
 # landing page
 landing:
-  home: 'Home'
-  about: 'About'
-  career: 'Career'
-  skills: 'Skills'
-  projects: 'Project'
-  blog: 'Blog'
-  contact: 'Contact'
+  home: '主页'
+  about: '关于'
+  career: '职业生涯'
+  skills: '技能'
+  projects: '开源项目'
+  blog: '博客户'
+  contact: '联系我'
 
 # my projects
 project:
@@ -83,7 +83,7 @@ index:
 
 # donate
 donate:
-  weixin: 'static/img/pay/xeixin.png'
+  weixin: 'static/img/pay/weixin.png'
   alipay: 'static/img/pay/alipay.png'
 
 # comment
