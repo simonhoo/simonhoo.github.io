@@ -2,54 +2,93 @@
   "website":{
     "title": "木偶人的技术博客"
   },
+
   "nav":{
     "home": "首页",
-    "about_me": "关于我",
+    "about_me": "关于",
     "skills": "技能",
     "projects": "项目",
     "career": "职业",
     "blog": "博客",
-    "contact": "链接"
+    "contact": "联系"
   },
+  
   "about_me":{
     "about_me": "关于我",
     "des": "我是一名老码农，前后从事JAVA程序开发、系统分析、系统架构、项目管理等工作，近年来的主要角色是系统架构设计；关注开源社区，乐于分享；热爱生活，热爱编码。"
   },
+
   "skills":{
-    "my_skills": "我的技能"
+    "my_skills": "我的技能",
+
+    "architect": "架构设计",
+    "pm": "项目管理",
+    "java": "J2EE及周边技术",
+    "database": "数据库",
+    "python": "Python程序设计",
+    "go": "Go程序设计",
+    "cloud_bigdata": "云计算与大数据",
+    "linux": "Linux/Shell"
   },
+
   "projects":{
-    "my_projects": "我的项目",
-    "saplatform": "Saplatform是一个自动化运维服务，包括资产管理、项目发布、数据库管理等功能,它可以管理大量服务器。",
-    "jalpc": "Jalpc是一个非常简洁、漂亮和快速部署的Jekyll主题，它非常小巧但是影响很广，能非常好的适应所有设备。",
-    "angularjs": "这是一个Angularjs写的前端应用，使用Jelyll部署在github的gh-pages上，后台使用Leancloud，你也可以使用Parse。"
+    "my_projects": "开源项目",
+    "thrift-framework": "Thrift JAVA 框架，服务端自动描述注册服务，客户端Client代理，已被使用于多个大型分布式金融平台。",
+    "thrift-script": "Thrift JAVA代码生成脚本，可以嵌入到Eclipse环境中。",
+    "SeaweedFS-Client": "这是一个SeaweedFS分布式文件服务的JAVA版客户端，已在多个大型互联网直播平台使用。",
+    "iFramework": "J2EE快速开发框架，Bootstrap, SpringMVC, MyBatis, 代码自动生成。",
+    "eclipse-plugins": "Eclipse插件，该库中有多个项目，每个项目均是一个单独可用的Eclipse插件项目。",
+    "redspider": "红蜘蛛，万能爬虫工具，可以自定配置抓取规则，指定爬取目标，以及所爬取数据存储数据源。"
   },
+
   "career":{
     "my_career": "职业生涯",
-    "nextcode": "Nextcode",
-    "nextcode_des": "现在我在Nextcode，使用Python为基因分析项目做网站.",
-    "nextcode_date": "2016年4月",
-    "nextcode_job": "Python工程师",
-    "netease": "网易游戏",
-    "netease_des": "在网易游戏，我了解到游戏体系，并使用Python代码为自动化运维服务.",
-    "netease_date": "2015年6月",
-    "netease_job": "运维开发工程师",
-    "ucloud": "Ucloud",
-    "ucloud_des": "在Ucloud,我开始和服务器、操作系统打交道，并使用shell脚本管理海量服务器.",
-    "ucloud_date": "2013年9月",
-    "ucloud_job": "运维开发工程师",
-    "college": "毕业",
-    "college_des": "2013年7月大学毕业，开始了IT职业生涯",
-    "college_date": "2013年7月",
-    "college_job": "学生"
+
+    "career.beyondsoft.company" : "博彦科技",
+    "career.beyondsoft.city": "深圳",
+    "career.beyondsoft.desc": "J2EE企业应用系统架构设计、招投标方案设计。",
+    "career.beyondsoft.date": "2014.7~今",
+    "career.beyondsoft.title": "系统架构师",
+
+    "career.broadengate.company" : "易思博软件",
+    "career.broadengate.city": "深圳",
+    "career.broadengate.desc": "J2EE企业应用系统架构设计、招投标方案设计、项目管理。",
+    "career.broadengate.date": "2013.7~2014.7",
+    "career.broadengate.title": "系统架构师、项目经理",
+
+    "career.szrealy.company" : "九州接力",
+    "career.szrealy.city": "深圳",
+    "career.szrealy.desc": "第一次合伙创业，为客户提供Oracle CC&B实施方案。",
+    "career.szrealy.date": "2012.11~2013.7",
+    "career.szrealy.title": "联合创始人，高级CC&B工程师",
+
+    "career.sf.company" : "顺丰速运",
+    "career.sf.city": "深圳",
+    "career.sf.desc": "顺丰速运OMP运单时效监控系统开发，大运力接口开发。",
+    "career.sf.date": "2012.7~2012.11",
+    "career.sf.title": "JAVA高级工程师",
+
+    "career.cnt.company" : "科联软件",
+    "career.cnt.city": "深圳",
+    "career.cnt.desc": "编设计文档、Oracle CC&B核心功能开发，测试、交付。",
+    "career.cnt.date": "2010.4~2012.7",
+    "career.cnt.title": "CC&B工程师",
+
+    "career.qiaochen.company" : "侨晨科技",
+    "career.qiaochen.city": "深圳",
+    "career.qiaochen.desc": "信息系统集成，从事设计、开发工作。",
+    "career.qiaochen.date": "2008.3~2010.4",
+    "career.qiaochen.title": "技术员"
+
   },
   "blog":{
-    "my_blog": "我的博客"
+    "my_blog": "进入博客"
   },
   "contact":{
-    "contact_me": "友情链接",
-    "email": "给我发邮件",
-    "follow": "或者通过以下方式"
+    "contact_me": "联系我",
+    "contact_desc": "有事您说话！",
+    "weixin": "微信",
+    "qq": "QQ"
   }
 
 }

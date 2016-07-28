@@ -1,55 +1,94 @@
 {
   "website":{
-    "title": "Simon.Hoo's technology blog"
+    "title": "木偶人的技术博客"
   },
+
   "nav":{
-    "home": "Home",
-    "about_me": "About",
-    "skills": "Skills",
-    "projects": "Projects",
-    "career": "Career",
-    "blog": "Blog",
-    "contact": "Link"
+    "home": "首页",
+    "about_me": "关于",
+    "skills": "技能",
+    "projects": "项目",
+    "career": "职业",
+    "blog": "博客",
+    "contact": "联系"
   },
+  
   "about_me":{
-    "about_me": "About Me",
-    "des": "I am an old Coder: JAVA application development, System Analysis, System Architecture, Project Manageement. System architecture design is the main role in recent years. Pay attention to the open source community, willing to share; Love life, love of coding."
+    "about_me": "关于我",
+    "des": "我是一名老码农，前后从事JAVA程序开发、系统分析、系统架构、项目管理等工作，近年来的主要角色是系统架构设计；关注开源社区，乐于分享；热爱生活，热爱编码。"
   },
+
   "skills":{
-    "my_skills": "My Skills"
+    "my_skills": "我的技能",
+
+    "architect": "架构设计",
+    "pm": "项目管理",
+    "java": "J2EE及周边技术",
+    "database": "数据库",
+    "python": "Python程序设计",
+    "go": "Go程序设计",
+    "cloud_bigdata": "云计算与大数据",
+    "linux": "Linux/Shell"
   },
+
   "projects":{
-    "my_projects": "My Projects",
-    "saplatform": "Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.",
-    "jalpc": "Jalpc is a simple, beautiful and swift theme for Jekyll. It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.",
-    "angularjs": "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well."
+    "my_projects": "开源项目",
+    "thrift-framework": "Thrift JAVA 框架，服务端自动描述注册服务，客户端Client代理，已被使用于多个大型分布式金融平台。",
+    "thrift-script": "Thrift JAVA代码生成脚本，可以嵌入到Eclipse环境中。",
+    "SeaweedFS-Client": "这是一个SeaweedFS分布式文件服务的JAVA版客户端，已在多个大型互联网直播平台使用。",
+    "iFramework": "J2EE快速开发框架，Bootstrap, SpringMVC, MyBatis, 代码自动生成。",
+    "eclipse-plugins": "Eclipse插件，该库中有多个项目，每个项目均是一个单独可用的Eclipse插件项目。",
+    "redspider": "红蜘蛛，万能爬虫工具，可以自定配置抓取规则，指定爬取目标，以及所爬取数据存储数据源。"
   },
+
   "career":{
-    "my_career": "My Career",
-    "nextcode": "Nextcode",
-    "nextcode_des": "Now I am in Nextcode and develop website with Python code for genetic analysis.",
-    "nextcode_date": "Apr. 2016",
-    "nextcode_job": "Python Developer",
-    "netease": "Netease Game",
-    "netease_des": "In Netease game, I learned game service system and use Python code for ops.",
-    "netease_date": "Jun. 2015",
-    "netease_job": "Dev Ops",
-    "ucloud": "Ucloud",
-    "ucloud_des": "In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.",
-    "ucloud_date": "Sep. 2013",
-    "ucloud_job": "Dev Ops",
-    "college": "Graduation",
-    "college_des": "At July 2013,I graduated from college and started my IT technology tour.",
-    "college_date": "Jul. 2013",
-    "college_job": "Student"
+    "my_career": "职业生涯",
+
+    "career.beyondsoft.company" : "博彦科技",
+    "career.beyondsoft.city": "深圳",
+    "career.beyondsoft.desc": "J2EE企业应用系统架构设计、招投标方案设计。",
+    "career.beyondsoft.date": "2014.7~今",
+    "career.beyondsoft.title": "系统架构师",
+
+    "career.broadengate.company" : "易思博软件",
+    "career.broadengate.city": "深圳",
+    "career.broadengate.desc": "J2EE企业应用系统架构设计、招投标方案设计、项目管理。",
+    "career.broadengate.date": "2013.7~2014.7",
+    "career.broadengate.title": "系统架构师、项目经理",
+
+    "career.szrealy.company" : "九州接力",
+    "career.szrealy.city": "深圳",
+    "career.szrealy.desc": "第一次合伙创业，为客户提供Oracle CC&B实施方案。",
+    "career.szrealy.date": "2012.11~2013.7",
+    "career.szrealy.title": "联合创始人，高级CC&B工程师",
+
+    "career.sf.company" : "顺丰速运",
+    "career.sf.city": "深圳",
+    "career.sf.desc": "顺丰速运OMP运单时效监控系统开发，大运力接口开发。",
+    "career.sf.date": "2012.7~2012.11",
+    "career.sf.title": "JAVA高级工程师",
+
+    "career.cnt.company" : "科联软件",
+    "career.cnt.city": "深圳",
+    "career.cnt.desc": "编设计文档、Oracle CC&B核心功能开发，测试、交付。",
+    "career.cnt.date": "2010.4~2012.7",
+    "career.cnt.title": "CC&B工程师",
+
+    "career.qiaochen.company" : "侨晨科技",
+    "career.qiaochen.city": "深圳",
+    "career.qiaochen.desc": "信息系统集成，从事设计、开发工作。",
+    "career.qiaochen.date": "2008.3~2010.4",
+    "career.qiaochen.title": "技术员"
+
   },
   "blog":{
-    "my_blog": "My Blog"
+    "my_blog": "进入博客"
   },
   "contact":{
-    "contact_me": "Link",
-    "email": "Send me mail",
-    "follow": "Or through the following ways"
+    "contact_me": "联系我",
+    "contact_desc": "有事您说话！",
+    "weixin": "微信",
+    "qq": "QQ"
   }
 
 }

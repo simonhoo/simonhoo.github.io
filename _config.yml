@@ -70,16 +70,16 @@ project:
 
 # blog index
 index:
-  home: 'Home'
+  home: '首页'
+  architecture: '架构与方案'
+  pm: '项目管理'
   java: 'Java'
   python: 'Python'
   golang: 'Go'
-  database: 'Database'
-  linux: 'Linux'
-  cloud: 'Colud'
-  architecture: 'Architect Design'
-  pm: 'Project Management'
-  life: 'Life'
+  database: '数据库'
+  os: '操作系统'
+  cloud: '云/大数据'
+  life: '生活点滴'
 
 # donate
 donate:
@@ -91,20 +91,20 @@ changyan:
   # appid: cysfY7ULn
   # conf: prod_861928934cecb7a18e15bedaed9dae29
 disqus:
-  name: jalpc
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+  # name: jalpc
+  # public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
 # share
 bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
+  uuid: 7c259b91-c2da-4777-8b2a-d70631aba974
 
 # baidu analytics
 ba:
-  uuid: 317acca9ef9255b934e46371e471431d
+  uuid: b7399c3275faaaa7e3edba857b5a23ea
 
 # google analytics
 ga:
-  id: UA-73784599-1
+  #id: UA-73784599-1
 
 # blog img path
 img_path: '/static/img/blog'

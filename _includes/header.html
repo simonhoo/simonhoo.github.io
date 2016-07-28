@@ -30,19 +30,33 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="page-scroll" href="/blog/">{{ site.index.home }}</a></li>
 
-                        {% if page.title == site.index.python %}
+                        {% if page.title == site.index.architecture %}
                             <li class="active">
                         {% else %}
                             <li>
                         {% endif %}
-                            <a class="page-scroll" href="/python/">{{ site.index.python }}</a></li>
-                        
+                             <a class="page-scroll" href="/architecture/">{{ site.index.architecture }}</a></li>
+                             
+                        {% if page.title == site.index.pm %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                             <a class="page-scroll" href="/pm/">{{ site.index.pm }}</a></li>
+
                         {% if page.title == site.index.java %}
                             <li class="active">
                         {% else %}
                             <li>
                         {% endif %}
                              <a class="page-scroll" href="/java/">{{ site.index.java }}</a></li>
+
+                        {% if page.title == site.index.python %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                            <a class="page-scroll" href="/python/">{{ site.index.python }}</a></li>
 
                         {% if page.title == site.index.golang %}
                             <li class="active">
@@ -51,19 +65,12 @@
                         {% endif %}
                              <a class="page-scroll" href="/golang/">{{ site.index.golang }}</a></li>
 
-                        {% if page.title == site.index.pm %}
+                        {% if page.title == site.index.database %}
                             <li class="active">
                         {% else %}
                             <li>
                         {% endif %}
-                             <a class="page-scroll" href="/pm/">{{ site.index.pm }}</a></li>
-
-                        {% if page.title == site.index.architecture %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                             <a class="page-scroll" href="/architecture/">{{ site.index.architecture }}</a></li>
+                            <a class="page-scroll" href="/database/">{{ site.index.database }}</a></li>
 
                         {% if page.title == site.index.cloud %}
                             <li class="active">
@@ -77,21 +84,7 @@
                         {% else %}
                             <li>
                         {% endif %}
-                            <a class="page-scroll" href="/linux/">{{ site.index.linux }}</a></li>
-
-                        {% if page.title == site.index.html %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/html/">{{ site.index.html }}</a></li>
-
-                        {% if page.title == site.index.database %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/database/">{{ site.index.database }}</a></li>
+                            <a class="page-scroll" href="/os/">{{ site.index.os }}</a></li>
 
                         {% if page.title == site.index.life %}
                             <li class="active">
