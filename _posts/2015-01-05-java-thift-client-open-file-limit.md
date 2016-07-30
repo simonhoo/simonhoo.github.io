@@ -45,7 +45,7 @@ icon: fa-java
 
 重点是下面这几行, 每次打开时，先进行判断。
 ```
-if (!transport.isOpen()) {
-	transport.open();
-}
+	if (!transport.isOpen()) {
+		transport.open();
+	}
 ```
