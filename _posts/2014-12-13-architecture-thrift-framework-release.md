@@ -15,4 +15,4 @@ Thrift JAVA 框架，服务端自动描述注册服务，客户端Client代理�
 
 Github: https://github.com/simonhoo/thrift-framework
 
-![safe]({{ site.img_path }}/thrift/thrift-framework-release.png)
+![Thrift-Framework]({{ site.img_path }}/thrift/thrift-framework-release.png)
