@@ -14,38 +14,38 @@ icon: fa-java
 为了解决这个问题除了修改操作系统配置之外，我们的应用也需要进行处理，在我们创建SOCKET时，需要做如下处理:
 
 ```
- 	/**
-	 * 初始化，创建TTransport实例
-	 * 
-	 * @author Simon Hoo
-	 * @throws ThriftException
-	 */
-	public void init() throws ThriftException {
-		try {
-			Socket s = new Socket(hostIp, port);
-			s.setReuseAddress(true);
-			s.setSoTimeout(timeout);
-			transport = new TSocket(s);
-			if (!transport.isOpen()) {
-				transport.open();
-			}
-		} catch (TTransportException e) {
-			throw new ThriftException(e);
-		} catch (SocketException e) {
-			throw new ThriftException(e);
-		} catch (UnknownHostException e) {
-			throw new ThriftException(e);
-		} catch (IOException e) {
-			throw new ThriftException(e);
-		} catch (Exception e) {
-			throw new ThriftException(e);
+/**
+ * 初始化，创建TTransport实例
+ * 
+ * @author Simon Hoo
+ * @throws ThriftException
+ */
+public void init() throws ThriftException {
+	try {
+		Socket s = new Socket(hostIp, port);
+		s.setReuseAddress(true);
+		s.setSoTimeout(timeout);
+		transport = new TSocket(s);
+		if (!transport.isOpen()) {
+			transport.open();
 		}
+	} catch (TTransportException e) {
+		throw new ThriftException(e);
+	} catch (SocketException e) {
+		throw new ThriftException(e);
+	} catch (UnknownHostException e) {
+		throw new ThriftException(e);
+	} catch (IOException e) {
+		throw new ThriftException(e);
+	} catch (Exception e) {
+		throw new ThriftException(e);
 	}
+}
 ```
 
 重点是下面这几行, 每次打开时，先进行判断。
 ```
-	if (!transport.isOpen()) {
-		transport.open();
-	}
+if (!transport.isOpen()) {
+	transport.open();
+}
 ```
